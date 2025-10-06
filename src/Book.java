@@ -15,4 +15,8 @@ public class Book extends Publication implements Printable{
         System.out.println(this.getYear());
         System.out.println(this.getISBN());
     }
+
+    public Book(String author, int year, String title, String type, int ISBN){
+        this.setType("Book");
+    }
 }

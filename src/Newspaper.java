@@ -14,6 +14,9 @@ public class Newspaper extends Publication implements Printable{
         System.out.println(this.getAuthor());
         System.out.println(this.getYear());
         System.out.println(this.getPublicationDay());
+    }
 
+    public Newspaper(String author, int year, String title, String type, String publicationDay){
+        this.setType("Newspaper");
     }
 }

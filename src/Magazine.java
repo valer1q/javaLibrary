@@ -15,4 +15,8 @@ public class Magazine extends Publication implements Printable{
         System.out.println(this.getYear());
         System.out.println(this.getIssueNumber());
     }
+
+    public Magazine(String author, int year, String title, String type, String issueNumber){
+        this.setType("Magazine");
+    }
 }

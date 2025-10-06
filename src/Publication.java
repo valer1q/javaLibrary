@@ -2,6 +2,7 @@ public abstract class Publication{
     private String title;
     private String author;
     private int year;
+    private String type;
 
     private static int publicationCount = 0;
 
@@ -36,6 +37,12 @@ public abstract class Publication{
         return year;
     }
 
+    public void setType(String type){
+        this.type = type;
+    }
+    public String getType(){
+        return type;
+    }
 
 
 

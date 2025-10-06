@@ -8,22 +8,11 @@ public class Main {
                 int caseNumber = console.nextInt();  
                 switch (caseNumber) {
                     case 0:
+                        Library.addPublication();
                     break;
                 
                     case 1:
-                    System.out.println("type");
-                    int caseNumber1 = console.nextInt();
-                    switch (caseNumber1) {
-                        case 1:
-                        //Book
-                            break;
-                        case 2:
-                        //Newspaper
-                        break;
-                        case 3:
-                        //Magazine 
-                        break;
-                    }
+
                     break;
 
                     case 2:
@@ -40,6 +29,8 @@ public class Main {
             }
     }
 }
+
+
 }
 
 
